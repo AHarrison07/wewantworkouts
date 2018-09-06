@@ -1,0 +1,65 @@
+/* CSS for webproject */
+
+body {
+	background-color: rgb(230,230,230);
+}
+
+nav ul {
+	text-decoration: none;
+}
+
+.banner-img {
+	width: 100%;
+}
+
+.icon-bar {
+	width: 90%; /* Set a specific width */
+	background-color: #ffffff; /* White background */
+	overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+	float: left; /* Float links side by side */
+	text-align: center; /* Center align text */
+	width: 90; /* Equal width - 100%/6 icons = 16.667% */
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.logobanner {
+	width: 90%; /* Set a specific width for logo banner */
+}
+
+#bannercontainer {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#bannerwrapper {
+	width:100%;
+	overflow: hidden;
+}
+
+#bannercontainer img {
+	display: block;
+	margin: 0 auto;
+}
+
+.leftcolumn {
+	float: left;
+	width: 25%;
+}
+
+.rightcolumn {
+	float: right;
+	width: 25%;
+}
+
+.middlecolumn {
+	display: inline-block;
+	width: 50%;
+}
+
+#footer {
+	clear: both;
+}
